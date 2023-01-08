@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color:#e2e8f0;
+  font-family: 'Roboto', sans-serif;
+}
+    
+h1 {
+    text-align: center;
+    font-size: 25px;
+    
+  }
+
+
+
+.primeiradata {
+    text-align:center;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 230px;
+    border-bottom: 1px solid #a6acb4;
+    width: 800px;
+    height: 30px;
+  }
+
+.data {
+    text-align:center;
+    font-size: 20px;
+    border-bottom: 1px solid #a6acb4;
+    margin: 0 auto;
+    width: 800px;
+    height: 30px;
+  }
+
+
+
+.header {
+  position: fixed;
+  background-color: #2d4abf;
+  width: 100%;
+  height: 70px;
+  z-index: 10;
+  padding: 3px 0;
+}
+
+.devicepadding {
+  border-bottom: 1px solid #a6acb4;
+  width: 800px;
+  height: 90px;
+  display: flex;
+  margin: 0 auto;
+}
+
+h2{
+  font-size: larger;
+  font-weight:500;
+}
+h3{
+  margin-top: 2px;
+  font-size: medium;
+  font-weight:400;
+  color: #686767;
+}
+
+li {
+  list-style-type: none;
+}
+
+.licontent{
+    margin-top: 12px;
+    text-align: left;
+    padding:12px 0;
+    flex:1;
+    min-width:0}
+
+    .lileft,.liright{display:flex;align-items:center;justify-content:center;width:48px;}
+    .lileft{margin-right:16px}
+    .liright{margin-left:16px}
+  
+
+.lileft.time{
+  font-size: large;
+  font-weight: 650;
+}
+
+
+a[href="#top"]{
+  padding:10px;
+  position:fixed;
+  top: 90%;
+  right:40px;
+  display:none;
+  font-size: 30px;
+}
+a[href="#top"]:hover{
+  text-decoration:none;
+}
+
+.inicio {
+  padding: 15px;
+  
+  color: #fff;
+  text-decoration:none;
+  background-image: url("voltar1.png");
+}

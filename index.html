@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>      
 
-<head> 
-    <title>ISTV - Programação</title>
-          <link rel="shortcut icon" href="/logoistv.png" />
-          <link rel="stylesheet" type="text/css" href="index.css" />
-          <meta
+<head>
+    <meta
             name="description"
             content="A ISTV é a emissora dos clássicos do cinema, das séries de TV e dos desenhos que é sucesso no Digital e no HD."
           />
@@ -20,365 +17,784 @@
           <meta name="author" content="Thalysson" />
           <meta
             name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        
-            
+            content="width=device-width, initial-scale=1.0"  
           />
-       
-
-
+          <title>ISTV - Programação</title>
+          <link rel="shortcut icon" href="/logoistv.png" />
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="stylesheet" type="text/css" href="index.css" />    
 </head>
 
 
 <body>   
-
-    <a href="#top" class="glyphicon glyphicon-chevron-up"></a>
-
-     <header class="header">
-        <a class="inicio" href="/"></a>		
-            <h1> PROGRAMAÇÃO - NACIONAL </h1>
-        </div>
+    <header class="header d-flex align-items-center">
+        <a class="flex-shrink-1" href="#"><i class="fa-solid fa-arrow-left"></i></a>
+        <h1 class="w-100"> PROGRAMAÇÃO - NACIONAL </h1>
     </header>
-
-
-
-
-
-
-         <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-         <h1 class="primeiradata">SABADO, 07/01 </h1>
-
-         <li>
-            <div class="devicepadding">
-                <div class='lileft time'>7:00</div>
-                <div class="licontent">
-                    <h2>Jornal da ISTV</h2>
-                    <h3>Jornalismo/Informativo</h3> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container d-flex text-center">
+            
+            <img src="logoistv.png" class="img-thumbnail" alt="...">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#heading1">Segunda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#heading2">Terça</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#heading3">Quarta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#heading4">Quinta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#heading5">Sexta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#heading6">Sabado</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#heading7">Domingo</a>
+                </li>
+                
+                <!-- Opcional - Menu com submenu -->
+                <!--
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                -->
+                </ul>
             </div>
-            </div>			
-        </li>
-    
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>8:30</div>
-                <div class="licontent">
-                    <h2>Tarzan</h2>
-                    <h3>Desenho</h3> 
+        </div>
+    </nav>
+    <main>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapseOne">
+                    SEGUNDA, 07/01
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>7:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>8:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Desenho</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>11:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da Manhã</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>13:00</div>
+                            <div class="licontent">
+                                <h2>Todo Mundo Odeia o Chris</h2>
+                                <h3>Serie</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>15:00</div>
+                            <div class="licontent">
+                                <h2>I Love Lucy</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>  
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>16:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da Tarde</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>17:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>20:00</div>
+                            <div class="licontent">
+                                <h2>Jornal de Esporte</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>22:00</div>
+                            <div class="licontent">
+                                <h2>Sexta Feira 13</h2>
+                                <h3>Filme</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>23:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                </div>
+              </div>
             </div>
-            </div>			
-        </li>
-    
-    
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>11:00</div>
-                <div class="licontent">
-                    <h2>Jornal da Manhã</h2>
-                    <h3>Jornalismo/Informativo</h3> 
-            </div>	
-            </div>	
-        </li>
-    
-    
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>13:00</div>
-                <div class="licontent">
-                    <h2>Todo Mundo Odeia o Chris</h2>
-                    <h3>Serie</h3> 
-            </div>	
-            </div>	
-        </li>
-    
-    
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>15:00</div>
-                <div class="licontent">
-                    <h2>I Love Lucy</h2>
-                    <h3>Serie</h3> 
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                     TERÇA, 08/01
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>7:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>8:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Desenho</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>11:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da Manhã</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>13:00</div>
+                            <div class="licontent">
+                                <h2>Todo Mundo Odeia o Chris</h2>
+                                <h3>Serie</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>15:00</div>
+                            <div class="licontent">
+                                <h2>I Love Lucy</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>16:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da Tarde</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>17:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>  
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>20:00</div>
+                            <div class="licontent">
+                                <h2>Jornal de Esporte</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>22:00</div>
+                            <div class="licontent">
+                                <h2>Sexta Feira 13</h2>
+                                <h3>Filme</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>23:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                </div>
+              </div>
             </div>
-            </div>			
-        </li>
-    
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>16:30</div>
-                <div class="licontent">
-                    <h2>Jornal da Tarde</h2>
-                    <h3>Jornalismo/Informativo</h3> 
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    QUARTA, 09/01
+                  </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse show" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>7:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal da ISTV</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>8:30</div>
+                              <div class="licontent">
+                                  <h2>Tarzan</h2>
+                                  <h3>Desenho</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>11:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal da Manhã</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>	
+                          </div>	
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>13:00</div>
+                              <div class="licontent">
+                                  <h2>Todo Mundo Odeia o Chris</h2>
+                                  <h3>Serie</h3> 
+                          </div>	
+                          </div>	
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>15:00</div>
+                              <div class="licontent">
+                                  <h2>I Love Lucy</h2>
+                                  <h3>Serie</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>16:30</div>
+                              <div class="licontent">
+                                  <h2>Jornal da Tarde</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>17:30</div>
+                              <div class="licontent">
+                                  <h2>Tarzan</h2>
+                                  <h3>Serie</h3> 
+                          </div>
+                          </div>			
+                      </li>  
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>20:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal de Esporte</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>22:00</div>
+                              <div class="licontent">
+                                  <h2>Sexta Feira 13</h2>
+                                  <h3>Filme</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>23:30</div>
+                              <div class="licontent">
+                                  <h2>Jornal da ISTV</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                  </div>
+                </div>
             </div>
-            </div>			
-        </li>
-    
-    
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                      QUINTA, 07/01
+                  </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse show" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>7:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal da ISTV</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>8:30</div>
+                              <div class="licontent">
+                                  <h2>Tarzan</h2>
+                                  <h3>Desenho</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>11:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal da Manhã</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>	
+                          </div>	
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>13:00</div>
+                              <div class="licontent">
+                                  <h2>Todo Mundo Odeia o Chris</h2>
+                                  <h3>Serie</h3> 
+                          </div>	
+                          </div>	
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>15:00</div>
+                              <div class="licontent">
+                                  <h2>I Love Lucy</h2>
+                                  <h3>Serie</h3> 
+                          </div>
+                          </div>			
+                      </li>  
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>16:30</div>
+                              <div class="licontent">
+                                  <h2>Jornal da Tarde</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>17:30</div>
+                              <div class="licontent">
+                                  <h2>Tarzan</h2>
+                                  <h3>Serie</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>20:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal de Esporte</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>22:00</div>
+                              <div class="licontent">
+                                  <h2>Sexta Feira 13</h2>
+                                  <h3>Filme</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>23:30</div>
+                              <div class="licontent">
+                                  <h2>Jornal da ISTV</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                       SEXTA, 08/01
+                  </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse show" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>7:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal da ISTV</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>8:30</div>
+                              <div class="licontent">
+                                  <h2>Tarzan</h2>
+                                  <h3>Desenho</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>11:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal da Manhã</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>	
+                          </div>	
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>13:00</div>
+                              <div class="licontent">
+                                  <h2>Todo Mundo Odeia o Chris</h2>
+                                  <h3>Serie</h3> 
+                          </div>	
+                          </div>	
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>15:00</div>
+                              <div class="licontent">
+                                  <h2>I Love Lucy</h2>
+                                  <h3>Serie</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>16:30</div>
+                              <div class="licontent">
+                                  <h2>Jornal da Tarde</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>17:30</div>
+                              <div class="licontent">
+                                  <h2>Tarzan</h2>
+                                  <h3>Serie</h3> 
+                          </div>
+                          </div>			
+                      </li>  
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>20:00</div>
+                              <div class="licontent">
+                                  <h2>Jornal de Esporte</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>22:00</div>
+                              <div class="licontent">
+                                  <h2>Sexta Feira 13</h2>
+                                  <h3>Filme</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                      <li>
+                          <div class="devicepadding">
+                              <div class='lileft time'>23:30</div>
+                              <div class="licontent">
+                                  <h2>Jornal da ISTV</h2>
+                                  <h3>Jornalismo/Informativo</h3> 
+                          </div>
+                          </div>			
+                      </li>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
         
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>17:30</div>
-                <div class="licontent">
-                    <h2>Tarzan</h2>
-                    <h3>Serie</h3> 
+        <div class="accordion" id="accordionExample2">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                     SABADO, 08/01
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse show" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>7:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>8:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Desenho</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>11:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da Manhã</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>13:00</div>
+                            <div class="licontent">
+                                <h2>Todo Mundo Odeia o Chris</h2>
+                                <h3>Serie</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>15:00</div>
+                            <div class="licontent">
+                                <h2>I Love Lucy</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>16:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da Tarde</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>17:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>  
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>20:00</div>
+                            <div class="licontent">
+                                <h2>Jornal de Esporte</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>22:00</div>
+                            <div class="licontent">
+                                <h2>Sexta Feira 13</h2>
+                                <h3>Filme</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>23:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                </div>
+              </div>
             </div>
-            </div>			
-        </li>
-    
-         
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>20:00</div>
-                <div class="licontent">
-                    <h2>Jornal de Esporte</h2>
-                    <h3>Jornalismo/Informativo</h3> 
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                    DOMINGO, 09/01
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse show" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>7:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>8:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Desenho</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>11:00</div>
+                            <div class="licontent">
+                                <h2>Jornal da Manhã</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>13:00</div>
+                            <div class="licontent">
+                                <h2>Todo Mundo Odeia o Chris</h2>
+                                <h3>Serie</h3> 
+                        </div>	
+                        </div>	
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>15:00</div>
+                            <div class="licontent">
+                                <h2>I Love Lucy</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>16:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da Tarde</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>17:30</div>
+                            <div class="licontent">
+                                <h2>Tarzan</h2>
+                                <h3>Serie</h3> 
+                        </div>
+                        </div>			
+                    </li>  
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>20:00</div>
+                            <div class="licontent">
+                                <h2>Jornal de Esporte</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>22:00</div>
+                            <div class="licontent">
+                                <h2>Sexta Feira 13</h2>
+                                <h3>Filme</h3> 
+                        </div>
+                        </div>			
+                    </li>
+                    <li>
+                        <div class="devicepadding">
+                            <div class='lileft time'>23:30</div>
+                            <div class="licontent">
+                                <h2>Jornal da ISTV</h2>
+                                <h3>Jornalismo/Informativo</h3> 
+                        </div>
+                        </div>			
+                    </li>
+              </div>
             </div>
-            </div>			
-        </li>
-    
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>22:00</div>
-                <div class="licontent">
-                    <h2>Sexta Feira 13</h2>
-                    <h3>Filme</h3> 
-            </div>
-            </div>			
-        </li>
-    
-        <li>
-            <div class="devicepadding">
-                <div class='lileft time'>23:30</div>
-                <div class="licontent">
-                    <h2>Jornal da ISTV</h2>
-                    <h3>Jornalismo/Informativo</h3> 
-            </div>
-            </div>			
-        </li>
-
-
-
-    <li class="divider"></li>
-
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-    <h1 class="data">DOMINGO, 08/01 </h1>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>7:00</div>
-            <div class="licontent">
-                <h2>Jornal da ISTV</h2>
-                <h3>Jornalismo/Informativo</h3> 
         </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>8:30</div>
-            <div class="licontent">
-                <h2>Tarzan</h2>
-                <h3>Desenho</h3> 
-        </div>
-        </div>			
-    </li>
-
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>11:00</div>
-            <div class="licontent">
-                <h2>Jornal da Manhã</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>	
-        </div>	
-    </li>
-
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>13:00</div>
-            <div class="licontent">
-                <h2>Todo Mundo Odeia o Chris</h2>
-                <h3>Serie</h3> 
-        </div>	
-        </div>	
-    </li>
-
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>15:00</div>
-            <div class="licontent">
-                <h2>I Love Lucy</h2>
-                <h3>Serie</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>16:30</div>
-            <div class="licontent">
-                <h2>Jornal da Tarde</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>
-        </div>			
-    </li>
-
-
-    
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>17:30</div>
-            <div class="licontent">
-                <h2>Tarzan</h2>
-                <h3>Serie</h3> 
-        </div>
-        </div>			
-    </li>
-
-     
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>20:00</div>
-            <div class="licontent">
-                <h2>Jornal de Esporte</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>22:00</div>
-            <div class="licontent">
-                <h2>Sexta Feira 13</h2>
-                <h3>Filme</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>23:30</div>
-            <div class="licontent">
-                <h2>Jornal da ISTV</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-    <h1 class="data">SEGUNDA, 09/01 </h1>
-
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>7:00</div>
-            <div class="licontent">
-                <h2>Jornal da ISTV</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>8:30</div>
-            <div class="licontent">
-                <h2>Tarzan</h2>
-                <h3>Desenho</h3> 
-        </div>
-        </div>			
-    </li>
-
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>11:00</div>
-            <div class="licontent">
-                <h2>Jornal da Manhã</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>	
-        </div>	
-    </li>
-
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>13:00</div>
-            <div class="licontent">
-                <h2>Todo Mundo Odeia o Chris</h2>
-                <h3>Serie</h3> 
-        </div>	
-        </div>	
-    </li>
-
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>15:00</div>
-            <div class="licontent">
-                <h2>I Love Lucy</h2>
-                <h3>Serie</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>16:30</div>
-            <div class="licontent">
-                <h2>Jornal da Tarde</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>
-        </div>			
-    </li>
-
-
-    
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>17:30</div>
-            <div class="licontent">
-                <h2>Tarzan</h2>
-                <h3>Serie</h3> 
-        </div>
-        </div>			
-    </li>
-
-     
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>20:00</div>
-            <div class="licontent">
-                <h2>Jornal de Esporte</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>22:00</div>
-            <div class="licontent">
-                <h2>Sexta Feira 13</h2>
-                <h3>Filme</h3> 
-        </div>
-        </div>			
-    </li>
-
-    <li>
-        <div class="devicepadding">
-            <div class='lileft time'>23:30</div>
-            <div class="licontent">
-                <h2>Jornal da ISTV</h2>
-                <h3>Jornalismo/Informativo</h3> 
-        </div>
-        </div>			
-    </li>
-
-
+    </main>    
 </body>
-
-
 </html>
